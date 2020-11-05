@@ -4,15 +4,43 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    public float speed = 1f;
+    public float jumpForce = 1f;
+
+    public bool facingRight = true;
+
+    private Rigidbody2D rigidbody;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rigidbody = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        float horizontal = Input.GetAxis("Horizontal");
+
+        Vector2 oldVelocity = rigidbody.velocity;
+        oldVelocity.x = speed * horizontal;
+        rigidbody.velocity = oldVelocity;
+
+        if((facingRight && horizontal < 0) || (!facingRight && horizontal > 0)) {
+            flip();
+        }
+
+        if(Input.GetButtonDown("Jump")) {
+            rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        }
+    }
+
+    private void flip()
+    {
+        this.facingRight = !this.facingRight;
+
+        Vector3 theScale = this.transform.localScale;
+        theScale.x *= -1;
+        this.transform.localScale = theScale;
     }
 }
