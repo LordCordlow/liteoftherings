@@ -7,7 +7,7 @@ public class CharacterMovement : MonoBehaviour
     public float speed = 1f;
     public float jumpForce = 1f;
 
-    public bool facingRight = true;
+    public static bool facingRight = true;
 
     private Rigidbody2D rigidbody;
 
@@ -37,7 +37,7 @@ public class CharacterMovement : MonoBehaviour
 
     private void flip()
     {
-        this.facingRight = !this.facingRight;
+        facingRight = !facingRight;
 
         Vector3 theScale = this.transform.localScale;
         theScale.x *= -1;
