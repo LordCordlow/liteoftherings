@@ -1108,7 +1108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330053258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.1, y: -11.42, z: 0}
+  m_LocalPosition: {x: -42.1, y: -11.87, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 1800420310}
@@ -1130,6 +1130,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 8
+  jump: 0
+  animator: {fileID: 1330053267}
 --- !u!114 &1330053264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1315,13 +1317,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800420309}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0054175514, w: 0.99998534}
   m_LocalPosition: {x: 0.4999987, y: -1.4333327, z: 0}
   m_LocalScale: {x: 3.333333, y: 3.333333, z: 1}
   m_Children: []
   m_Father: {fileID: 1330053262}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.62100005}
 --- !u!212 &1800420311
 SpriteRenderer:
   m_ObjectHideFlags: 0
