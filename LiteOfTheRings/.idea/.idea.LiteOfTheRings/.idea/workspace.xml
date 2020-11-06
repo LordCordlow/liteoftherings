@@ -22,11 +22,8 @@
     <list default="true" id="c182f29a-24ca-45ca-bfaa-439b6bd4ac92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/arrow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/arrow.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ArrowShoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ArrowShoot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +40,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RemoveByTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArrowShoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RespawnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterCollision.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Parallaxing.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604572666767</updated>
       <workItem from="1604572673360" duration="6419000" />
-      <workItem from="1604652862338" duration="5084000" />
+      <workItem from="1604652862338" duration="9273000" />
     </task>
     <servers />
   </component>

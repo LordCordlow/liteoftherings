@@ -11,6 +11,7 @@
           <e p="CharacterCollision.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="EnemyDestroy.cs" t="Include" />
+          <e p="Parallaxing.cs" t="Include" />
           <e p="RemoveByTime.cs" t="Include" />
           <e p="Respawn.cs" t="Include" />
           <e p="RespawnManager.cs" t="Include" />
