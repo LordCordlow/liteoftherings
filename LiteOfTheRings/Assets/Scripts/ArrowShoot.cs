@@ -9,6 +9,7 @@ public class ArrowShoot : MonoBehaviour
     
     public float speed = 1.0f;
     public int arrowPoolSize = 10;
+    
     public List<Rigidbody2D> arrowPool;
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,7 @@ public class ArrowShoot : MonoBehaviour
         arrowPool = new List<Rigidbody2D>();
         for (int i = 0; i < arrowPoolSize; i++)
         {
-            Rigidbody2D arrowClone = Instantiate(arrowPrototype, firePoint.position, arrowPrototype.transform.rotation);
+            Rigidbody2D arrowClone = Instantiate(arrowPrototype);
             arrowClone.gameObject.SetActive(false);
             arrowPool.Add(arrowClone);
         }
@@ -44,7 +45,7 @@ public class ArrowShoot : MonoBehaviour
 
     private Rigidbody2D getArrowFromPool()
     {
-        foreach (var arrow in arrowPool)
+        foreach (Rigidbody2D arrow in arrowPool)
         {
             if (!arrow.gameObject.activeSelf)
             {

@@ -26,12 +26,20 @@ public class CharacterMovement : MonoBehaviour
         oldVelocity.x = speed * horizontal;
         rigidbody.velocity = oldVelocity;
 
+        /*
         if((facingRight && horizontal < 0) || (!facingRight && horizontal > 0)) {
             flip();
-        }
+        } */
 
         if(Input.GetButtonDown("Jump")) {
             rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        }
+        if (facingRight && horizontal < 0)
+        {
+            flip();
+        } else if (!facingRight && horizontal > 0)
+        {
+            flip();
         }
     }
 
@@ -39,8 +47,8 @@ public class CharacterMovement : MonoBehaviour
     {
         facingRight = !facingRight;
 
-        Vector3 theScale = this.transform.localScale;
-        theScale.x *= -1;
-        this.transform.localScale = theScale;
+        Vector3 scale = this.transform.localScale;
+        scale.x *= -1;
+        this.transform.localScale = scale;
     }
 }
