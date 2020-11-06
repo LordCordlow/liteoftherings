@@ -16,6 +16,7 @@
           <e p="Respawn.cs" t="Include" />
           <e p="RespawnManager.cs" t="Include" />
           <e p="SmoothCamera.cs" t="Include" />
+          <e p="Tiling.cs" t="Include" />
         </e>
       </e>
       <e p="LiteOfTheRings.sln" t="IncludeFlat" />

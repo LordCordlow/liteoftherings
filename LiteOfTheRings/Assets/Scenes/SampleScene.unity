@@ -131,6 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 52467219}
   - component: {fileID: 52467220}
+  - component: {fileID: 52467221}
   m_Layer: 0
   m_Name: BlueBackground (1)
   m_TagString: Untagged
@@ -202,6 +203,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &52467221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52467218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 0
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &240799166
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,6 +275,7 @@ GameObject:
   - component: {fileID: 306260915}
   - component: {fileID: 306260916}
   - component: {fileID: 306260917}
+  - component: {fileID: 306260918}
   m_Layer: 0
   m_Name: BottomTree
   m_TagString: Untagged
@@ -344,6 +363,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 519420028}
   parallaxEffect: 0.3
+--- !u!114 &306260918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 306260914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1001 &331950666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -424,6 +460,7 @@ GameObject:
   - component: {fileID: 337844058}
   - component: {fileID: 337844057}
   - component: {fileID: 337844059}
+  - component: {fileID: 337844060}
   m_Layer: 0
   m_Name: LightForest
   m_TagString: Untagged
@@ -511,6 +548,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 519420028}
   parallaxEffect: 0.5
+--- !u!114 &337844060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337844056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &479160671
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479160672}
   - component: {fileID: 479160673}
+  - component: {fileID: 479160674}
   m_Layer: 0
   m_Name: LightForest (2)
   m_TagString: Untagged
@@ -592,6 +647,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &479160674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479160671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 0
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,6 +774,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520678066}
   - component: {fileID: 520678067}
+  - component: {fileID: 520678068}
   m_Layer: 0
   m_Name: BlueBackground (2)
   m_TagString: Untagged
@@ -773,6 +846,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &520678068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520678065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 0
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &764388875
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 764388876}
   - component: {fileID: 764388877}
+  - component: {fileID: 764388878}
   m_Layer: 0
   m_Name: BottomTree (2)
   m_TagString: Untagged
@@ -854,6 +945,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &764388878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764388875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 0
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1001 &892863963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -933,6 +1041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 906676231}
   - component: {fileID: 906676232}
+  - component: {fileID: 906676233}
   m_Layer: 0
   m_Name: DarkForest (2)
   m_TagString: Untagged
@@ -1004,6 +1113,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &906676233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906676230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 0
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &915385804
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,6 +1140,7 @@ GameObject:
   m_Component:
   - component: {fileID: 915385805}
   - component: {fileID: 915385806}
+  - component: {fileID: 915385807}
   m_Layer: 0
   m_Name: Swamp (1)
   m_TagString: Untagged
@@ -1085,6 +1212,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &915385807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915385804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 0
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &927900606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1305,7 @@ GameObject:
   - component: {fileID: 987288156}
   - component: {fileID: 987288155}
   - component: {fileID: 987288157}
+  - component: {fileID: 987288158}
   m_Layer: 0
   m_Name: DarkForest
   m_TagString: Untagged
@@ -1248,6 +1393,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 519420028}
   parallaxEffect: 0.7
+--- !u!114 &987288158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987288154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &1062938074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,6 +1420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1062938075}
   - component: {fileID: 1062938076}
+  - component: {fileID: 1062938077}
   m_Layer: 0
   m_Name: LightForest (1)
   m_TagString: Untagged
@@ -1329,6 +1492,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1062938077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062938074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 0
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &1203877748
 GameObject:
   m_ObjectHideFlags: 0
@@ -1339,6 +1519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1203877749}
   - component: {fileID: 1203877750}
+  - component: {fileID: 1203877751}
   m_Layer: 0
   m_Name: BottomTree (1)
   m_TagString: Untagged
@@ -1410,6 +1591,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1203877751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203877748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 0
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1001 &1216866953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1490,6 +1688,7 @@ GameObject:
   - component: {fileID: 1251582724}
   - component: {fileID: 1251582725}
   - component: {fileID: 1251582726}
+  - component: {fileID: 1251582727}
   m_Layer: 0
   m_Name: BlueBackground
   m_TagString: Untagged
@@ -1577,6 +1776,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 519420028}
   parallaxEffect: 1
+--- !u!114 &1251582727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251582723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &1330053258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,6 +1809,7 @@ GameObject:
   - component: {fileID: 1330053264}
   - component: {fileID: 1330053259}
   - component: {fileID: 1330053266}
+  - component: {fileID: 1330053267}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -1855,6 +2072,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   originalPosition: {x: 0, y: 0, z: 0}
+--- !u!95 &1330053267
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330053258}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f82278abd414911438cd4e7331c86d3a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1410367170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1865,6 +2101,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1410367171}
   - component: {fileID: 1410367172}
+  - component: {fileID: 1410367173}
   m_Layer: 0
   m_Name: Swamp (2)
   m_TagString: Untagged
@@ -1936,6 +2173,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1410367173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410367170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 0
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &1800420309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2028,6 +2282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979761327}
   - component: {fileID: 1979761328}
+  - component: {fileID: 1979761329}
   m_Layer: 0
   m_Name: DarkForest (1)
   m_TagString: Untagged
@@ -2099,6 +2354,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1979761329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979761326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 0
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1 &2091982296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2110,6 +2382,7 @@ GameObject:
   - component: {fileID: 2091982297}
   - component: {fileID: 2091982298}
   - component: {fileID: 2091982299}
+  - component: {fileID: 2091982300}
   m_Layer: 0
   m_Name: Swamp
   m_TagString: Untagged
@@ -2197,6 +2470,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 519420028}
   parallaxEffect: 0.3
+--- !u!114 &2091982300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091982296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6204958b4db4c74a866de30360d2db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 2
+  hasARightBuddy: 1
+  hasALeftBuddy: 1
+  reverseScale: 0
+  spriteWidthOszto: 2
 --- !u!1001 &29611417304108460
 PrefabInstance:
   m_ObjectHideFlags: 0
