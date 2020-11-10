@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
     public float speed = 1f;
-    public float jumpForce = 1f;
+    public float jumpForce = 5f;
     public bool jump = false;
 
     public static bool facingRight = true;
@@ -34,20 +35,12 @@ public class CharacterMovement : MonoBehaviour
             flip();
         }
         
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && !jump)
         {
             jump = true;
             rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
             animator.SetBool("isJumping", true);
         }
-        /*
-        if (facingRight && horizontal < 0)
-        {
-            flip();
-        } else if (!facingRight && horizontal > 0)
-        {
-            flip();
-        } */
     }
     
     private void OnCollisionEnter2D(Collision2D other)
@@ -59,7 +52,25 @@ public class CharacterMovement : MonoBehaviour
         {
             jump = false;
             this.animator.SetBool("isJumping", false);
+        } else if (other.gameObject.CompareTag("Ladder"))
+        {
+            Debug.Log("collision");
+            climbLadder();
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            // Debug.Log("belepett");
+            climbLadder();
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        climbLadder();
     }
 
     private void flip()
@@ -69,5 +80,14 @@ public class CharacterMovement : MonoBehaviour
         Vector3 scale = this.transform.localScale;
         scale.x *= -1;
         this.transform.localScale = scale;
+    }
+
+    private void climbLadder()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            Debug.Log("asd");
+            rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+        }
     }
 }

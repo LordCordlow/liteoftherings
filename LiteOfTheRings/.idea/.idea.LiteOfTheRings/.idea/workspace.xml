@@ -21,12 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c182f29a-24ca-45ca-bfaa-439b6bd4ac92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Hero.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Hero.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Hero_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Hero_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BigTile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BigTile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Tile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Tile.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterCollision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterCollision.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
@@ -104,6 +100,7 @@
       <updated>1604572666767</updated>
       <workItem from="1604572673360" duration="6419000" />
       <workItem from="1604652862338" duration="17883000" />
+      <workItem from="1605032275646" duration="2572000" />
     </task>
     <servers />
   </component>
