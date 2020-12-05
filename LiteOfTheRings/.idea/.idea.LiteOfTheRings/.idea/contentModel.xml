@@ -214,12 +214,14 @@
           <e p="ArrowShoot.cs" t="Include" />
           <e p="CharacterCollision.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
+          <e p="DustCloudDestroy.cs" t="Include" />
           <e p="EnemyDestroy.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="Parallaxing.cs" t="Include" />
           <e p="RemoveByTime.cs" t="Include" />
           <e p="Respawn.cs" t="Include" />
           <e p="RespawnManager.cs" t="Include" />
+          <e p="ShowDustCloud.cs" t="Include" />
           <e p="SmoothCamera.cs" t="Include" />
           <e p="Tiling.cs" t="Include" />
         </e>

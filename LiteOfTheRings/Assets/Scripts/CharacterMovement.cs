@@ -51,7 +51,7 @@ public class CharacterMovement : MonoBehaviour
         } else if (other.gameObject.CompareTag("Ground"))
         {
             jump = false;
-            this.animator.SetBool("isJumping", false);
+            animator.SetBool("isJumping", false);
         } else if (other.gameObject.CompareTag("Ladder"))
         {
             Debug.Log("collision");
