@@ -35,7 +35,7 @@ public class CharacterMovement : MonoBehaviour
             flip();
         }
         
-        if(Input.GetButtonDown("Jump") && !jump)
+        if(Input.GetButtonDown("Jump")/* && !jump*/)
         {
             jump = true;
             rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
