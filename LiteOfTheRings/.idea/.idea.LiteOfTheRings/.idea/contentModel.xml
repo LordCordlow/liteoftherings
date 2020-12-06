@@ -211,11 +211,15 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="AchievementInit.cs" t="Include" />
+          <e p="AchievementManager.cs" t="Include" />
           <e p="ArrowShoot.cs" t="Include" />
+          <e p="AudioManager.cs" t="Include" />
           <e p="CharacterCollision.cs" t="Include" />
           <e p="CharacterMovement.cs" t="Include" />
           <e p="DustCloudDestroy.cs" t="Include" />
           <e p="EnemyDestroy.cs" t="Include" />
+          <e p="GoldTrigger.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="Parallaxing.cs" t="Include" />
           <e p="RemoveByTime.cs" t="Include" />

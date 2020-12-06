@@ -17,6 +17,7 @@ public class EnemyDestroy : MonoBehaviour
             if (this.life <= 0)
             {
                 this.gameObject.SetActive(false);
+                GameObject.FindGameObjectWithTag("GameManager").GetComponent<AchievementManager>().addScore(2);
             }
         }
     }
