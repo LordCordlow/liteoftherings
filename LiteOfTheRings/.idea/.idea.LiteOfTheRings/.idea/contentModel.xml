@@ -224,6 +224,7 @@
           <e p="ShowDustCloud.cs" t="Include" />
           <e p="SmoothCamera.cs" t="Include" />
           <e p="Tiling.cs" t="Include" />
+          <e p="WraithMovement.cs" t="Include" />
         </e>
       </e>
       <e p="AstarPathfindingProject.csproj" t="IncludeRecursive" />

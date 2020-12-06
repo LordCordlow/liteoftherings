@@ -23,7 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +48,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterCollision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DustCloudDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShowDustCloud.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WraithMovement.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +105,8 @@
       <workItem from="1604652862338" duration="17883000" />
       <workItem from="1605032275646" duration="2887000" />
       <workItem from="1605095909008" duration="1220000" />
-      <workItem from="1607182969810" duration="3389000" />
+      <workItem from="1607182969810" duration="4090000" />
+      <workItem from="1607247936840" duration="923000" />
     </task>
     <servers />
   </component>
