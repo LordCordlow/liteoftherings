@@ -22,10 +22,16 @@
     <list default="true" id="c182f29a-24ca-45ca-bfaa-439b6bd4ac92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LiteOfTheRings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stone.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Achievments.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Achievments.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AchievementInit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AchievementInit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AchievementManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AchievementManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,22 +49,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RemoveByTime.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ArrowShoot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RespawnManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tilling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tiling.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Parallaxing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterCollision.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DustCloudDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ShowDustCloud.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AchievementManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AchievementInit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GoldTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WraithMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GoblinMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AchievementInit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Respawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AchievementManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HighScoreInit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MenuManager.cs" />
       </list>
     </option>
   </component>
@@ -114,7 +121,7 @@
       <workItem from="1605032275646" duration="2887000" />
       <workItem from="1605095909008" duration="1220000" />
       <workItem from="1607182969810" duration="4090000" />
-      <workItem from="1607247936840" duration="13485000" />
+      <workItem from="1607247936840" duration="16670000" />
     </task>
     <servers />
   </component>

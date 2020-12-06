@@ -13,11 +13,18 @@ public class EnemyDestroy : MonoBehaviour
         {
             other.gameObject.SetActive(false);
 
-            this.life--;
-            if (this.life <= 0)
+            life--;
+            if (life <= 0)
             {
-                this.gameObject.SetActive(false);
-                GameObject.FindGameObjectWithTag("GameManager").GetComponent<AchievementManager>().addScore(2);
+                gameObject.SetActive(false);
+                if (gameObject.CompareTag("Wraith"))
+                {
+                    GameObject.FindGameObjectWithTag("GameManager").GetComponent<AchievementManager>().addScore(5);
+                }
+                else
+                {
+                    GameObject.FindGameObjectWithTag("GameManager").GetComponent<AchievementManager>().addScore(2);
+                }
             }
         }
     }

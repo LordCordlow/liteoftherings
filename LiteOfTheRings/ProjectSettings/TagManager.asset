@@ -12,6 +12,7 @@ TagManager:
   - AudioManager
   - Mushroom
   - Level2
+  - Wraith
   layers:
   - Default
   - TransparentFX

@@ -63,7 +63,12 @@ public class CharacterMovement : MonoBehaviour
             mushroomJump();
         } else if (other.gameObject.CompareTag("Level2"))
         {
+            GameObject.FindGameObjectWithTag("GameManager").GetComponent<AchievementManager>().setLevel1HighScore();
             SceneManager.LoadScene(3);
+        } else if (other.gameObject.CompareTag("Finish"))
+        {
+            GameObject.FindGameObjectWithTag("GameManager").GetComponent<AchievementManager>().setLevel2HighScore();
+            SceneManager.LoadScene(4);
         }
     }
 

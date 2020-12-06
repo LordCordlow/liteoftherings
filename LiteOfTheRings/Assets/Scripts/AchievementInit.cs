@@ -8,6 +8,7 @@ public class AchievementInit : MonoBehaviour
 {
     public Image firstGoldImg;
     public Image orcSlayerImg;
+    public Image wraithSlyerImg;
     public Image completedImg;
     public Sprite unlockedSprite;
     public Sprite lockedSprite;
@@ -27,16 +28,23 @@ public class AchievementInit : MonoBehaviour
         {
             firstGoldImg.sprite = unlockedSprite;
         }
+
+        if (PlayerPrefs.GetInt("WraithSlayer") > 0)
+        {
+            wraithSlyerImg.sprite = unlockedSprite;
+        }
     }
 
     public void resetAchievements()
     {
         firstGoldImg.sprite = lockedSprite;
         orcSlayerImg.sprite = lockedSprite;
+        wraithSlyerImg.sprite = lockedSprite;
         completedImg.sprite = lockedSprite;
         
         PlayerPrefs.SetInt("FirstGold", 0);
         PlayerPrefs.SetInt("OrcSlayer", 0);
+        PlayerPrefs.SetInt("WraithSlayer", 0);
         PlayerPrefs.SetInt("Completed", 0);
     }
 }

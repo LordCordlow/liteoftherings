@@ -16,5 +16,6 @@ public class Respawn : MonoBehaviour
     public virtual void respawn()
     {
         transform.position = originalPosition;
+        GameObject.FindGameObjectWithTag("GameManager").GetComponent<AchievementManager>().resetScore();
     }
 }

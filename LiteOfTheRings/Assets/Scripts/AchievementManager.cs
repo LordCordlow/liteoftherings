@@ -25,7 +25,34 @@ public class AchievementManager : MonoBehaviour
             PlayerPrefs.SetInt("OrcSlayer", 1);
             Debug.Log("Earned Orc Slayer Achievement");
         }
+
+        if (earn == 5 && PlayerPrefs.GetInt("WraithSlayer") == 0)
+        {
+            PlayerPrefs.SetInt("WraithSlayer", 1);
+        }
         score += earn;
         scoreText.text = "Score: " + score;
+    }
+
+    public void resetScore()
+    {
+        score = 0;
+        scoreText.text = "Score: 0";
+    }
+
+    public void setLevel1HighScore()
+    {
+        if (score > PlayerPrefs.GetInt("Level1HS"))
+        {
+            PlayerPrefs.SetInt("Level1HS", score);
+        }
+    }
+
+    public void setLevel2HighScore()
+    {
+        if (score > PlayerPrefs.GetInt("Level2HS"))
+        {
+            PlayerPrefs.SetInt("Level2HS", score);
+        }
     }
 }
