@@ -10,6 +10,8 @@ TagManager:
   - Ground
   - Ladder
   - AudioManager
+  - Mushroom
+  - Level2
   layers:
   - Default
   - TransparentFX

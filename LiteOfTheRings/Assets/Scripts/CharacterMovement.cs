@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -52,42 +53,32 @@ public class CharacterMovement : MonoBehaviour
         {
             jump = false;
             animator.SetBool("isJumping", false);
-        } else if (other.gameObject.CompareTag("Ladder"))
-        {
-            Debug.Log("collision");
-            climbLadder();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Ladder"))
+        if (other.gameObject.CompareTag("Mushroom"))
         {
-            // Debug.Log("belepett");
-            climbLadder();
+            mushroomJump();
+        } else if (other.gameObject.CompareTag("Level2"))
+        {
+            SceneManager.LoadScene(3);
         }
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        climbLadder();
     }
 
     private void flip()
     {
         facingRight = !facingRight;
 
-        Vector3 scale = this.transform.localScale;
+        Vector3 scale = transform.localScale;
         scale.x *= -1;
-        this.transform.localScale = scale;
+        transform.localScale = scale;
     }
 
-    private void climbLadder()
+    private void mushroomJump()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            Debug.Log("asd");
-            rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-        }
+        Debug.Log("mushroom");
+        rigidbody.AddForce(new Vector2(0f, 30f), ForceMode2D.Impulse);
     }
 }

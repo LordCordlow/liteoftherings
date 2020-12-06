@@ -219,6 +219,7 @@
           <e p="CharacterMovement.cs" t="Include" />
           <e p="DustCloudDestroy.cs" t="Include" />
           <e p="EnemyDestroy.cs" t="Include" />
+          <e p="GoblinMovement.cs" t="Include" />
           <e p="GoldTrigger.cs" t="Include" />
           <e p="MenuManager.cs" t="Include" />
           <e p="Parallaxing.cs" t="Include" />
