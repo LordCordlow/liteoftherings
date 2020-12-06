@@ -54,5 +54,6 @@ public class AchievementManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("Level2HS", score);
         }
+        PlayerPrefs.SetInt("Completed", 1);
     }
 }
